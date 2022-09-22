@@ -60,4 +60,4 @@ npx hygen page new PageName
 
 ## TODO
 
-[ ] Update documentation with the project structure
+- [ ] Update documentation with the project structure
