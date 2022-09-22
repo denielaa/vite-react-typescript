@@ -1,7 +1,9 @@
 # vite-react-typescript
+
 Vite + React + TS template
 
-This template equiped with: 
+This template equiped with:
+
 - Linter
 - Prettier
 - Husky with Precommit
@@ -56,8 +58,6 @@ npx hygen page-component new --page PageName --name ComponentName
 npx hygen page new PageName
 ```
 
-
 ## TODO
-[ ] Update documentation with the project structure
-[ ] Remove unused library
 
+[ ] Update documentation with the project structure
