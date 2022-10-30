@@ -15,11 +15,9 @@ module.exports = {
   arrowParens: 'avoid',
   tabWidth: 2,
   endOfLine: 'auto',
-  importOrder: [
-    '^@(assets|components|context|hooks|lib|pages|shared|styles|ui|utils)/?(.*)$',
-    '^[./]',
-  ],
+  importOrder: ['^.*.(css|scss)$', '<THIRD_PARTY_MODULES>', '^~/(shared)/?(.*)$', '^[./]'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrderParserPlugins: ['jsx', 'typescript'],
+  importOrderCaseInsensitive: true,
 }
